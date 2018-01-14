@@ -1,0 +1,59 @@
+.sidebar{
+  height: 90vh;
+  max-height: 90vh;
+  overflow: auto;
+  background: #fff;
+  border-left: 1px solid #323232;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-row{
+  padding: 2.5vh 0px;
+  border-bottom: 4px solid hsl(3,100%,59%);
+  transition: 0.125s ease-out;
+  
+}
+.sidebar-row:hover{
+  cursor: pointer;
+}
+
+
+.sidebar-row a{
+  color: #fff;
+  font-size: 24px;
+}
+.sidebar-row a:hover{
+  text-decoration: none;
+}
+
+.sidebar-red{
+  background: hsl(3,100%,69%);
+  border-color: hsl(3,100%,59%);
+}
+.sidebar-red:hover{
+  background: hsl(3,100%,75%);
+}
+
+.sidebar-blue{
+  background: hsl(213,100%,69%);
+  border-color: hsl(213,100%,59%);
+}
+.sidebar-blue:hover{
+  background: hsl(213,100%,75%);
+}
+
+.sidebar-orange{
+  background: hsl(33,100%,69%);
+  border-color: hsl(33,100%,59%);
+}
+.sidebar-orange:hover{
+  background: hsl(33,100%,75%);
+}
+
+.sidebar-green{
+  background: hsl(120,100%,69%);
+  border-color: hsl(120,100%,59%);
+}
+.sidebar-green:hover{
+  background: hsl(120,100%,75%)
+}

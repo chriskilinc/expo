@@ -1,0 +1,18 @@
+.navigation{
+  height: 10vh;
+  background: #fff;
+  border-bottom: 1px solid #323232;
+}
+
+.nav-container{
+  height:inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand h1{
+  text-align: left;
+  text-transform: uppercase;
+}
+

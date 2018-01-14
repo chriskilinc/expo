@@ -1,0 +1,8 @@
+.clock h1{
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.clock p{
+  font-size: 12px;
+  text-transform: uppercase;
+}
