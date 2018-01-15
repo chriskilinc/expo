@@ -16,14 +16,7 @@ class Sidebar extends Component {
         < SidebarRow className="sidebar-row sidebar-blue"/>
         < SidebarRow className="sidebar-row sidebar-green"/>
         < SidebarRow className="sidebar-row sidebar-orange"/>
-        < SidebarRow className="sidebar-row sidebar-red"/>
-        < SidebarRow className="sidebar-row sidebar-blue"/>
-        < SidebarRow className="sidebar-row sidebar-green"/>
-        < SidebarRow className="sidebar-row sidebar-orange"/>
-        < SidebarRow className="sidebar-row sidebar-red"/>
-        < SidebarRow className="sidebar-row sidebar-blue"/>
-        < SidebarRow className="sidebar-row sidebar-green"/>
-        < SidebarRow className="sidebar-row sidebar-orange"/>
+
 
       </aside>
     );
