@@ -6,7 +6,9 @@ import ArticleWrapper from './ArticleWrapper';
 class Content extends Component {
   constructor(props){
     super(props);
+  
   }
+
   render() {
     return (
       <section className="content col-10">

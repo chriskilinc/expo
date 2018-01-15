@@ -1,12 +1,16 @@
 .article-wrapper{
   padding: 0;
-  margin: 0;
+  margin: 0; 
+  
 }
 
 article{
-  height:45vh;
-  background: transparent;
-  border: 1px solid #000;
+  min-height:22.5vh;
+  height: 45vh;
+  color: #323232;
+  background: #fff;
+  margin: 0;
+  padding: 10px 10px !important;
 }
 .article h1{
   font-size: 32px;
@@ -17,5 +21,28 @@ article{
 
 .article-container{
   height: 100%;
-  padding:10px 5px;
+  padding:20px 15px;
+  border: 1px solid #eeee;
+}
+
+.article-content{
+  width: 100%;
+}
+
+.article-content ul{
+  padding: 0;
+  margin: 0;
+}
+.article-content li{
+  font-size: 28px;
+  padding: 5px;
+  float: left;
+  width: 100%;
+  list-style: none;
+}
+
+@media (max-width: 1080px) and (orientation:portrait) {
+ article{
+   height:30vh;
+ }
 }

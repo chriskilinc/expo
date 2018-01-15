@@ -21,16 +21,11 @@ class App extends Component {
     }
 
     this.state = {
-      articles: {
-        title:{
-          rendered: ''
-        },
-        content:{
-          rendered: ''
-        },
-        id: undefined,
-      },
+      articles: [
+        
+      ],
     }
+
   }
 
   componentDidMount() {
