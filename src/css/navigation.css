@@ -1,7 +1,7 @@
 .navigation{
   height: 10vh;
   background: #fff;
-  border-bottom: 1px solid #323232;
+  border-bottom: 5px solid hsl(33,100%,69%);
 }
 
 .nav-container{
